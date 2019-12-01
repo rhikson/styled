@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Title } from './styles'
+import { Title, TitleSmall } from './styles'
 
 class App extends Component {
   render() {
@@ -10,6 +10,8 @@ class App extends Component {
           Hello World
           <span>texto menor</span>
         </Title>
+
+        <TitleSmall>Menor</TitleSmall>
       </div>
     );
   }
