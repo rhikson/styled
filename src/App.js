@@ -6,7 +6,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Title>Hello World</Title>
+        <Title>
+          Hello World
+          <span>texto menor</span>
+        </Title>
       </div>
     );
   }
